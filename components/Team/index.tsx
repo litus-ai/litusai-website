@@ -31,7 +31,7 @@ const team: Member[] = [
     },
     {
         fullname: "Niccolò Campolungo",
-        role: "Chief Product Officer",
+        role: "Chief Innovation Officer",
         image: "/images/team/niccolo.jpg",
         description: "Making Manent interactions seamless.",
         social: {
