@@ -21,7 +21,7 @@ jobs:
 
       - name: Build
         run: |
-          npm ci
+          npm --legacy-peer-deps ci
           next build
           next export
           touch out/.nojekyll
