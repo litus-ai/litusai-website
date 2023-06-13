@@ -17,7 +17,7 @@ const PricingBox = (props: {
           {
             price === null ? (
               <h3 className="price mb-2 text-3xl font-bold text-black dark:text-white">
-                <span className="amount">Let's</span>
+                <span className="amount">Let&apos;s</span>
                 <span className="time text-body-color"> talk!</span>
               </h3>
             ) : (

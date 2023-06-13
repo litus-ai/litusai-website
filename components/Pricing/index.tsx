@@ -64,13 +64,14 @@ const Pricing = () => {
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
           {offerData.map((offer) => (
             <PricingBox
+              key={offer.name}
               packageName={offer.name}
               price={(offer.price ?? [null, null])[1 - +isMonthly]}
               duration={isMonthly ? "mo" : "yr"}
               subtitle={offer.description}
             >
               {offer.features.map((feature) => (
-                <OfferList text={feature.name} status={feature.active ? "active" : "inactive"} />
+                <OfferList key={`${offer.name}-${feature.name}`} text={feature.name} status={feature.active ? "active" : "inactive"} />
               ))}
 
             </PricingBox>
