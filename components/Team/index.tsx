@@ -7,7 +7,10 @@ const team: Member[] = [
         fullname: "Gianmarco Sgammini",
         role: "Chief Executive Officer",
         image: "/images/team/gianmarco.jpg",
-        description: "Driving Sunglasses.ai forward."
+        description: "Driving Sunglasses.ai forward.",
+        social: {
+            linkedin: 'gianmarco-sgammini-16b5b7175',
+        }
     },
     {
         fullname: "Edoardo Barba",
@@ -17,6 +20,7 @@ const team: Member[] = [
         social: {
             github: 'edobobo',
             twitter: 'edoardo_barba',
+            linkedin: 'edoardo-barba-799825127',
         }
     },
     {
@@ -27,6 +31,7 @@ const team: Member[] = [
         social: {
             github: 'poccio',
             twitter: 'luigi_proc',
+            linkedin: 'luigi-procopio',
         }
     },
     {
@@ -44,7 +49,10 @@ const team: Member[] = [
         fullname: "Beatrice Barba",
         role: "Chief Marketing Officer",
         image: "/images/team/beatrice.jpg",
-        description: "Spreading Manent everywhere."
+        description: "Spreading Manent everywhere.",
+        social: {
+            linkedin: 'beatrice-barba-b11226143',
+        }
     },
 ];
 

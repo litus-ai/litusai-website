@@ -150,19 +150,20 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-                {/*<Link*/}
-                {/*  href="/signin"*/}
-                {/*  className="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"*/}
-                {/*>*/}
-                {/*  Sign In*/}
-                {/*</Link>*/}
-                <Link
-                  href="https://github.com/sunglasses-ai"
-                  className="ease-in-up hidden rounded-md bg-primary py-3 px-8 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"
-                  target={"_blank"}
-                >
-                  GitHub
+                <Link href="mailto:contact.sunglassesai@gmail.com"
+                      className="inline-flex items-center justify-center p-5 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                    <svg fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="h-7 w-7 mr-2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"></path>
+                    </svg>
+                  <span className="w-full">Contact us!</span>
                 </Link>
+                {/*<Link*/}
+                {/*  href="https://github.com/sunglasses-ai"*/}
+                {/*  className="ease-in-up hidden rounded-md bg-primary py-3 px-8 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"*/}
+                {/*  target={"_blank"}*/}
+                {/*>*/}
+                {/*  GitHub*/}
+                {/*</Link>*/}
                 <div>
                   <ThemeToggler />
                 </div>
