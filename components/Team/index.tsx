@@ -65,7 +65,7 @@ const Team = () => {
             <div className="container">
                 <SectionTitle
                     title="Our Team"
-                    paragraph="The amazing team behind Sunglasses.ai"
+                    paragraph="The amazing team behind Sunglasses AI"
                     center
                 />
 

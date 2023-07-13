@@ -6,6 +6,7 @@ const Footer = () => {
     <>
       <footer
         className="wow fadeInUp relative z-10 bg-primary bg-opacity-5"
+        // className="pt-16 md:pt-20 lg:pt-24" // add these back when re-including the container below
         data-wow-delay=".1s"
       >
         {/*<div className="container">*/}
@@ -207,8 +208,8 @@ const Footer = () => {
         {/*</div>*/}
         <div className="bg-primary/[.04] py-8">
           <div className="container">
-            <p className="text-center text-xl text-body-color dark:text-white">
-              Sunglasses.ai © 2023
+            <p className="text-center text-sm text-body-color dark:text-white">
+              2023 © Sunglasses AI SRL - Via Adolfo Venturi 24, Rome, 00162, Italy - P.IVA/CF 17226411001 - REA 1704593
             </p>
           </div>
         </div>

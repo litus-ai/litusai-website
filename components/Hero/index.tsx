@@ -15,10 +15,10 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-2xl font-bold leading-tight text-black dark:text-white sm:text-3xl sm:leading-tight md:text-4xl md:leading-tight">
-                  Sunglasses.ai - the <span className="bg-dark/[.75] text-white dark:bg-white/[.75] dark:text-dark">bright side</span> of AI
+                  Sunglasses AI - the <span className="bg-dark/[.75] text-white dark:bg-white/[.75] dark:text-dark">bright side</span> of AI
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  We forget most of the things we say in meetings, which hinders our productivity.
+                  Most of the things said in meetings are lost, hindering productivity.
                   We help you organize, structure and optimize the way you work with innovative AI techniques.
                   No more <em>zoom fatigue</em>, better <em>work/life balance</em>.<br />
                   Verba volant, scripta <b>manent</b>.
