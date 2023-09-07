@@ -54,14 +54,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/sunglasses.png"
+                  src="/images/logo/litus-ai-logo-dark-blue.png"
                   alt="logo"
                   className="w-full dark:hidden"
                   width={140}
                   height={30}
                 />
                 <Image
-                  src="/images/logo/sunglasses-white.png"
+                  src="/images/logo/litus-ai-logo-white.png"
                   alt="logo"
                   className="hidden w-full dark:block"
                   width={140}
@@ -150,7 +150,7 @@ const Header = () => {
                 </nav>
               </div>
               <div className={`flex items-center justify-end ${menuData.length === 0 ? '' : 'pr-16'} lg:pr-0`}>
-                <Link href="mailto:contact.sunglassesai@gmail.com"
+                <Link href="mailto:info@litus.ai"
                       className="inline-flex items-center justify-center p-5 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
                     <svg fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="h-7 w-7 mr-2">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"></path>

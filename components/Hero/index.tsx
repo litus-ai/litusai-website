@@ -15,7 +15,8 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-2xl font-bold leading-tight text-black dark:text-white sm:text-3xl sm:leading-tight md:text-4xl md:leading-tight">
-                  Sunglasses AI - the <span className="bg-dark/[.75] text-white dark:bg-white/[.75] dark:text-dark">bright side</span> of AI
+                  Litus AI - <span className="bg-dark/[.75] text-white dark:bg-white/[.75] dark:text-dark"><span className="animate-decoding-de">de</span><span className="animate-decoding-cod">cod</span><span className="animate-decoding-ing">ing</span>
+</span> the future.
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                   Most of the things said in meetings are lost, hindering productivity.

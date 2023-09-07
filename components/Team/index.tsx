@@ -7,7 +7,7 @@ const team: Member[] = [
         fullname: "Gianmarco Sgammini",
         role: "Chief Executive Officer",
         image: "/images/team/gianmarco.jpg",
-        description: "Driving Sunglasses.ai forward.",
+        description: "Driving Litus AI forward.",
         social: {
             linkedin: 'gianmarco-sgammini-16b5b7175',
         }
@@ -65,7 +65,7 @@ const Team = () => {
             <div className="container">
                 <SectionTitle
                     title="Our Team"
-                    paragraph="The amazing team behind Sunglasses AI"
+                    paragraph="The amazing team behind Litus AI"
                     center
                 />
 
