@@ -54,14 +54,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/litus-ai-logo-dark-blue.png"
+                  src="/images/logo/litus-ai-logo-light.png"
                   alt="logo"
                   className="w-full dark:hidden"
                   width={140}
                   height={30}
                 />
                 <Image
-                  src="/images/logo/litus-ai-logo-white.png"
+                  src="/images/logo/litus-ai-logo-dark.png"
                   alt="logo"
                   className="hidden w-full dark:block"
                   width={140}

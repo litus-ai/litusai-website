@@ -42,7 +42,8 @@ const team: Member[] = [
         social: {
             github: 'valahaar',
             twitter: 'valahaar',
-            linkedin: 'niccolò-campolungo-9375311ba'
+            linkedin: 'niccolò-campolungo-9375311ba',
+            // email: 'nick',
         }
     },
     {
