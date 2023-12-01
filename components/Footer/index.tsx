@@ -210,6 +210,16 @@ const Footer = () => {
           <div className="container">
             <p className="text-center text-sm text-body-color dark:text-white">
               2023 © Sunglasses.AI SRL <br /> Via Adolfo Venturi 24, Rome, 00162, Italy <br /> P.IVA/CF 17226411001 - REA 1704593
+              <br />
+              <a href="https://www.iubenda.com/privacy-policy/76198193"
+                 className="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe" title="Privacy Policy ">
+                Privacy Policy
+              </a>
+              <span style={{marginLeft: 5, marginRight: 5}}>&nbsp;</span>
+              <a href="https://www.iubenda.com/privacy-policy/76198193/cookie-policy"
+                 className="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe" title="Cookie Policy ">
+                Cookie Policy
+              </a>
             </p>
           </div>
         </div>
